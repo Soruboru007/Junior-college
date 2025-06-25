@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(void) {
 	// 定数宣言
+    //補足として、enum使う理由は、普通の変数では配列のサイズを定義できないから代わりにenumやdefineを使って定義する。
 	enum { ROW_SIZE = 10 };	//行数
 	enum { COL_SIZE = 3 };//列数
 
